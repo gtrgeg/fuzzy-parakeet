@@ -9,8 +9,6 @@ import App from "@/components/designable/src/design/playground/main";
 const Design = () => {
 	return (
 		<div className="home card">
-			111
-			{/* <img src={welcome} alt="welcome" /> */}
 			<App/>
 		</div>
 	);
