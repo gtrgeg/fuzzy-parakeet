@@ -28,6 +28,7 @@
     "@formily/shared": "^2.0.2",
     "@juggle/resize-observer": "^3.4.0",
     "@monaco-editor/loader": "^1.4.0",
+    "@monaco-editor/react": "^4.4.1",
     "antd": "^4.22.2",
     "axios": "^0.27.2",
     "driver.js": "^0.9.8",
@@ -37,6 +38,7 @@
     "immer": "^9.0.15",
     "js-md5": "^0.7.3",
     "moment": "^2.29.3",
+    "monaco-editor": "^0.44.0",
     "nprogress": "^0.2.0",
     "qs": "^6.10.5",
     "react": "^18.2.0",
@@ -51,6 +53,7 @@
     "redux-persist": "^6.0.0",
     "redux-promise": "^0.6.0",
     "redux-thunk": "^2.4.1",
+    "requestidlecallback": "^0.3.0",
     "screenfull": "^6.0.2"
   },
   "devDependencies": {

@@ -1,4 +1,6 @@
 import 'antd/dist/antd.less'
+import React, { useMemo } from 'react'
+
 import {
   Designer,
   DesignerToolsWidget,
