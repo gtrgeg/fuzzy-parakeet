@@ -18,10 +18,12 @@ export const ActionsWidget = observer(() => {
   }, [])
   return (
     <Space style={{ marginRight: 10 }}>
-      {/* <Button href="https://designable-fusion.formilyjs.org">
+      {/*跳转源码地址按钮 <Button href="https://designable-fusion.formilyjs.org">
         Alibaba Fusion
       </Button> */}
-      <Radio.Group
+
+      {/* 语言切换按钮 */}
+      {/* <Radio.Group
         value={GlobalRegistry.getDesignerLanguage()}
         optionType="button"
         options={[
@@ -31,7 +33,7 @@ export const ActionsWidget = observer(() => {
         onChange={(e) => {
           GlobalRegistry.setDesignerLanguage(e.target.value)
         }}
-      />
+      /> */}
       <Button
         onClick={() => {
           saveSchema(designer)

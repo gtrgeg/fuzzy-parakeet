@@ -11,7 +11,7 @@ export const LogoWidget: React.FC = () => {
   const url = logo[useTheme()]
   return (
     <div style={{ display: 'flex', alignItems: 'center', fontSize: 18,  fontWeight: 600}}>
-      CRF表单
+      {/* 左上角标题 CRF表单 */}
     </div>
   )
 }
