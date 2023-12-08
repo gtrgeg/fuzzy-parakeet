@@ -96,6 +96,9 @@ GlobalRegistry.registerDesignerLocales({
   },
 })
 
+GlobalRegistry.setDesignerLanguage('zh-cn')
+
+
 const App = () => {
   const engine = useMemo(
     () =>
